@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .trend3 {
+        display: none;
+    }
+    .footer {
+        padding: 20px 10px;
+    }
+}
