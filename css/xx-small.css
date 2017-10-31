@@ -2,4 +2,10 @@
     .header .social {
         display: none;
     }
+    .main2 .separate .canvas .content-post .description{
+        text-align: justify;
+        font-size: 13px;
+        padding: 10px 0px;
+        color: #525252;
+    }
 }

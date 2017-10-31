@@ -127,7 +127,7 @@ background: linear-gradient(181deg, rgba(255,54,134,0) 0%, rgba(252,53,132,0) 1%
 }
 .separate .img .gradient .detail-post .title{
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     transition: 500ms;
@@ -167,13 +167,19 @@ background: linear-gradient(181deg, rgba(255,54,134,0) 0%, rgba(252,53,132,0) 1%
     font-style: normal;
     font-size: 11px;
 }
-.main2 .separate .canvas .content-post .title{
+.main2 .separate .canvas .content-post .title a{
     text-align: justify;
-    font-size: 18pxs;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #504b4b;
+}
+.main2 .separate .canvas .content-post .title a:hover{
+    color: #0078D7;
 }
 .main2 .separate .canvas .content-post .description{
     text-align: justify;
-    font-size: 13px;
+    font-size: 16px;
     padding: 10px 0px;
     color: #525252;
 }
@@ -189,9 +195,9 @@ background: linear-gradient(181deg, rgba(255,54,134,0) 0%, rgba(252,53,132,0) 1%
     border-bottom: 1px solid #0078D7;
 }
 .main2 .separate .canvas-side{
-    background-color: white;
     padding: 10px;
     margin-bottom: 15px;
+    background-color: white;
 }
 .main2 .separate .canvas-side .tips{
     padding: 5px 5px;
@@ -202,6 +208,8 @@ background: linear-gradient(181deg, rgba(255,54,134,0) 0%, rgba(252,53,132,0) 1%
 }
 .main2 .separate .canvas-side .box-post{
     padding: 15px 0px 5px 0px;
+    width: 100%;
+
 }
 .main2 .separate .canvas-side .box-post .img{
     height: 150px;
@@ -214,40 +222,49 @@ background: linear-gradient(181deg, rgba(255,54,134,0) 0%, rgba(252,53,132,0) 1%
     padding: 5px 0px;
     text-decoration: none;
     transition: linear 200ms;
+    color: #504b4b;
 }
 .main2 .separate .canvas-side .box-post .content-post-right .title :hover{
     color: #0078D7;
 }
-.main2 .separate .canvas-side .suscribe-article{
+.main2 .separate .canvas-side2{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.main2 .separate .canvas-side2 .suscribe-article{
     padding: 5px 5px;
     color: #0078D7;
     font-style: normal;
     font-weight: bolder;
     border-bottom: 1px solid #0078D7;
 }
-.main2 .separate .canvas-side form {
+.main2 .separate .canvas-side2 form {
     padding: 20px 0px;
 }
-.main2 .separate .canvas-side form input{
+.main2 .separate .canvas-side2 form input{
     padding: 5px 5px;
     border: 1.5px solid #615e5e;
     transition: 1s;
+    width: 95%;
+    margin: 0px 0px 5px 0px;
 }
-.main2 .separate .canvas-side form input:hover{
+.main2 .separate .canvas-side2 form input:hover{
     outline: none;
     border: 1.5px solid #0078D7;
 }
-.main2 .separate .canvas-side form input:focus{
+.main2 .separate .canvas-side2 form input:focus{
     outline: none;
 }
-.main2 .separate .canvas-side form button{
-    padding: 6.5px 5px;
+.main2 .separate .canvas-side2 form button{
+    padding: 5px 5px;
     color: white;
     background-color: #0078D7;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
-.main2 .separate .canvas-side form button:hover{
+.main2 .separate .canvas-side2 form button:hover{
     background-color: #045ea5;
 }
 .footer {

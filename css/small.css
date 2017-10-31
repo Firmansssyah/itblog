@@ -5,4 +5,9 @@
     .footer {
         padding: 20px 10px;
     }
+    .main2 .separate .canvas-side .box-post .img{
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+    }
 }
